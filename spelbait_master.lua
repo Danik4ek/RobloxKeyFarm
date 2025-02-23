@@ -61,8 +61,8 @@ spawn(function()
                     print("✅ Кнопка 'Rematch' видима! Нажимаю...")
 
                     -- **Настройка точности клика**
-                    local correctionX = 800 -- Увеличь (15, 20) если нужно правее
-                    local correctionY = 130  -- Чем больше число, тем ниже клик
+                    local correctionX = 0 -- Увеличь (15, 20) если нужно правее
+                    local correctionY = 30  -- Чем больше число, тем ниже клик
 
                     -- **Расчет координат**
                     local clickX = button.AbsolutePosition.X + (button.AbsoluteSize.X / 2) + correctionX
