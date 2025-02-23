@@ -62,7 +62,7 @@ spawn(function()
 
                     -- **Расчет координат**
                     local clickX = 771
-                    local clickY = 630
+                    local clickY = 580
 
                     print("🎯 Координаты клика: X=" .. clickX .. " Y=" .. clickY)
 
