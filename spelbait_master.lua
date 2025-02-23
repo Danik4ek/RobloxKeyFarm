@@ -62,7 +62,7 @@ spawn(function()
 
                     -- **Настройка точности клика**
                     local correctionX = 0 -- Чем больше число? тем правее
-                    local correctionY = 200  -- Чем больше число, тем ниже клик
+                    local correctionY = 0  -- Чем больше число, тем ниже клик
 
                     -- **Расчет координат**
                     local clickX = button.AbsolutePosition.X + (button.AbsoluteSize.X / 2) + correctionX
