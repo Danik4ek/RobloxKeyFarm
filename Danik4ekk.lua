@@ -60,12 +60,9 @@ spawn(function()
                 if button and button.Visible and button.Parent.Visible then
                     print("✅ Кнопка 'Rematch' видима! Нажимаю...")
 
-                    -- **Настройка точности клика**
-                    local correctionY = 30 -- Чем больше число, тем ниже клик
-
                     -- **Расчет координат**
-                    local clickX = button.AbsolutePosition.X + (button.AbsoluteSize.X / 2)
-                    local clickY = button.AbsolutePosition.Y + (button.AbsoluteSize.Y / 2) + correctionY
+                    local clickX = 771
+                    local clickY = 499
 
                     print("🎯 Координаты клика: X=" .. clickX .. " Y=" .. clickY)
 
